@@ -1,4 +1,4 @@
-use forward_list::ForwardList;
+use lists::ForwardList;
 
 fn main() {
     let mut fl: ForwardList<i32> = ForwardList::new();

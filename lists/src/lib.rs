@@ -59,7 +59,7 @@ impl<T> ForwardList<T>
 
     pub fn pop_front(&mut self) -> Result<T, &'static str> {
         if self.is_empty() {
-            return Err("Can't pop an element from an empty forward-list");
+            return Err("Can't pop an element from an empty lists");
         }
 
         let old_head = self.head.take().unwrap();
@@ -72,7 +72,7 @@ impl<T> ForwardList<T>
 
     pub fn pop_back(&mut self) -> Result<T, &'static str> {
         if self.is_empty() {
-            return Err("Can't pop an element from an empty forward-list");
+            return Err("Can't pop an element from an empty lists");
         }
 
         if self.len() == 1 {
