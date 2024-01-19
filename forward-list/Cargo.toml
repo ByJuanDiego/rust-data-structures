@@ -1,0 +1,11 @@
+[package]
+name = "forward-list"
+version = "0.1.0"
+edition = "2021"
+description = "A simple implementation of a forward linked list."
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4.20"
