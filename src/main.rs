@@ -1,7 +1,7 @@
-use lists::ForwardList;
+use ds_list::ForwardList as List;
 
 fn main() {
-    let mut fl: ForwardList<i32> = ForwardList::new();
+    let mut fl: List<i32> = List::new();
     match fl.pop_front() {
         Ok(value) => {
             println!("value: {value}");

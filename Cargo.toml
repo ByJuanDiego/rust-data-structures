@@ -1,12 +1,14 @@
-workspace = { members = ["lists"] }
+workspace = { members = ["ds-list"] }
 [package]
 name = "rust-data-structures"
 version = "0.1.0"
 edition = "2021"
 description = "A project for placing my data structures implementations made in Rust."
 license = "MIT"
+authors = ["Juan Diego <juan.castro.p@utec.edu.pe>"]
+repository = "https://github.com/ByJuanDiego/rust-data-structures"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-lists = { path = "./lists", version = "0.1.0" }
+ds-list = { path = "./ds-list", version = "0.1.0", git = "https://github.com/ByJuanDiego/rust-data-structures/tree/master/ds-list" }

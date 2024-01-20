@@ -3,7 +3,7 @@
 version = 3
 
 [[package]]
-name = "lists"
+name = "ds-list"
 version = "0.1.0"
 dependencies = [
  "log",
@@ -19,5 +19,5 @@ checksum = "b5e6163cb8c49088c2c36f57875e58ccd8c87c7427f7fbd50ea6710b2f3f2e8f"
 name = "rust-data-structures"
 version = "0.1.0"
 dependencies = [
- "lists",
+ "ds-list",
 ]

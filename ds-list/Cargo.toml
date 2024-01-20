@@ -1,9 +1,11 @@
 [package]
-name = "lists"
+name = "ds-list"
 version = "0.1.0"
 edition = "2021"
 description = "A simple implementation of a forward linked list."
 license = "MIT"
+authors = ["Juan Diego <juan.castro.p@utec.edu.pe>"]
+repository = "https://github.com/ByJuanDiego/rust-data-structures/tree/master/ds-list"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
