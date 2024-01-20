@@ -11,4 +11,4 @@ repository = "https://github.com/ByJuanDiego/rust-data-structures"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-ds-list = { path = "./ds-list", version = "0.1.0", git = "https://github.com/ByJuanDiego/rust-data-structures/tree/master/ds-list" }
+ds-list = { path = "./ds-list", version = "0.1.0"}
