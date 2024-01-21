@@ -1,7 +1,7 @@
-use ds_list::ForwardList as List;
+use ds_list::{List, SinglyLinkedList as FL};
 
 fn main() {
-    let mut fl: List<i32> = List::new();
+    let mut fl: FL<i32> = FL::new();
     match fl.pop_front() {
         Ok(value) => {
             println!("value: {value}");

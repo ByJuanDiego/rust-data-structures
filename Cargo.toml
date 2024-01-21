@@ -1,4 +1,8 @@
-workspace = { members = ["ds-list"] }
+[workspace]
+members = [
+    "ds-list"
+]
+
 [package]
 name = "rust-data-structures"
 version = "0.1.0"
