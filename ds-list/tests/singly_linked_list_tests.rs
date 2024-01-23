@@ -1,8 +1,8 @@
 use ds_list::{List, SinglyLinkedList};
 
 #[cfg(test)]
-mod tests {
-    use super::{List, SinglyLinkedList};
+mod tests_singly_linked_list {
+    use super::*;
 
     #[test]
     fn empty_list_test() {
@@ -40,15 +40,22 @@ mod tests {
     }
 
     #[test]
+    fn get_empty_list_test() {
+        let mut dl: SinglyLinkedList<i32> = SinglyLinkedList::new();
+
+        assert_eq!(dl.get(0), None);
+    }
+
+    #[test]
     fn get_unwrap_test() {
         let mut fl: SinglyLinkedList<i32> = SinglyLinkedList::new();
         fl.push_back(10);
         fl.push_back(20);
         fl.push_back(30);
 
-        assert_eq!(fl.get(0), Some(&10));
-        assert_eq!(fl.get(1), Some(&20));
-        assert_eq!(fl.get(2), Some(&30));
+        assert_eq!(fl.get(0), Some(10));
+        assert_eq!(fl.get(1), Some(20));
+        assert_eq!(fl.get(2), Some(30));
     }
 
     #[test]

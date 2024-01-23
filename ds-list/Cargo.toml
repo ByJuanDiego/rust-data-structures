@@ -1,8 +1,8 @@
 [package]
 name = "ds-list"
-version = "1.1.0"
+version = "2.1.0"
 edition = "2021"
-description = "A simple implementation of a forward linked list."
+description = "A implementation of a singly linked list and a doubly linked list (with sentinel node)."
 license = "MIT"
 authors = ["Juan Diego <juan.castro.p@utec.edu.pe>"]
 repository = "https://github.com/ByJuanDiego/rust-data-structures/tree/master/ds-list"
